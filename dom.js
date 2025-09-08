@@ -38,14 +38,14 @@ for(let i=0 ; i<array.length ; i++){
     let img = document.createElement('img');
     img.src = `./images/image-${value%12}.png`;
     img.id = `image-${value}`;
-    img.alt = "Alternative Text";
+    img.alt = "Image Here";
     img.style.display = "none";
     let newDiv = document.createElement('div');
     newDiv.className = "extra";
     // newDiv.style.backgroundColor = "green";
     newDiv.style.cursor = "pointer";
-    newDiv.style.padding = "30px";
 
+    
     newDiv.appendChild(img);
     item.appendChild(newDiv);
     container.appendChild(item);
