@@ -42,7 +42,7 @@ for(let i=0 ; i<array.length ; i++){
     img.style.display = "none";
     let newDiv = document.createElement('div');
     newDiv.className = "extra";
-    // newDiv.style.backgroundColor = "green";
+    newDiv.style.backgroundColor = "green";
     newDiv.style.cursor = "pointer";
 
     
