@@ -44,7 +44,7 @@ for(let i=0 ; i<array.length ; i++){
     newDiv.className = "extra";
     // newDiv.style.backgroundColor = "green";
     newDiv.style.cursor = "pointer";
-    newDiv.style.padding = "30px";
+    newDiv.style.padding = "0";
 
     newDiv.appendChild(img);
     item.appendChild(newDiv);

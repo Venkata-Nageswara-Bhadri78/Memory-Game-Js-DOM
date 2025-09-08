@@ -7,6 +7,24 @@
     <script src="./dom.js" defer></script>
     <link rel="stylesheet" href="./src/output.css">
     <style>
+        .item img {
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+            display: none;
+            margin: auto;
+            align-items: center;
+        }
+        .extra {
+            cursor: pointer;
+            margin: auto;
+            width: 90%;
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         .flip-image {
             transform: rotateY(180deg);
             backface-visibility: hidden;
